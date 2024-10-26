@@ -155,3 +155,19 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+
+
+.hero-body {
+  padding-top: 2rem;    /* reduce from default */
+  padding-bottom: 2rem; /* reduce from default */
+}
+
+.publication-title {
+  margin-bottom: 1rem;  /* add this to reduce space after title */
+}
+
+/* If still too much space, can also add: */
+.section {
+  padding-top: 0rem;  /* reduce from default 3rem */
+}
